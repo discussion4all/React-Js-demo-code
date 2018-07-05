@@ -1,0 +1,1190 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://www.thecommonsoflakehouston.com/images/background_content.jpg);
+    background-size: cover;
+}
+
+
+ ::-webkit-scrollbar {
+ width: 8px;
+ height:8px;
+}
+::-webkit-scrollbar-track {
+ background-color: transparent;
+ margin-right:10px;
+}
+ ::-webkit-scrollbar-thumb {
+ background-color: #ccc;
+ border-radius:50px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background-color: #a71930;
+}
+
+
+.dragscroll::-webkit-scrollbar {
+ width: 0;
+ height:0;
+}
+
+.sticky-top .navbar-brand img
+{
+    opacity: 1 !important;
+}
+.sticky-top .navbar-brand img:hover
+{
+    /*background-color: pink;*/
+}
+
+.bg-dark {
+    padding: 0;
+}
+nav.navbar.bg-dark {
+    background: #03202F !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.slider-section .carousel-caption {
+    background: rgba(255,255,255,.6);
+    padding: 10px;
+    color: #292929;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+.carousel-caption-border {
+    padding: 10px 10px;
+    border: 2px solid #867c7cbd;
+}
+.carousel-caption-border h1{
+    color: #a71930;
+}
+.carousel-caption-border h1
+{
+    font-size: 25px;
+    text-align: center;
+}
+.carousel-caption-border p
+{
+    font-size: 14.5px;
+}
+li.nav-item.active a , .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: #ffffff36;
+}
+section.main-top {
+    padding: 50px 0;
+padding-bottom:100px;
+}
+.main-site-title {
+    padding: 50px 0;
+    text-align: center;
+}
+.main-site-title h2{
+  margin: 0;
+  color: #03202f;
+  text-transform: uppercase;
+}
+.main-top-section .card-body {
+    min-height: 290px;
+}
+.map-des h3
+{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+span.divider {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    max-width: 400px;
+    position: relative;
+    margin-top: 15px;
+}
+
+span.divider:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #03202f;
+}
+span.divider:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #a71930;
+    border-radius: 1px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+a.btn.btn-lg.btn-sldier {
+    background: #a71930;
+    color: #fff;
+    font-size: 12px;
+}
+.navbar-dark .navbar-brand img:hover {
+    opacity: 0.8;
+}
+h5.card-title {
+    color: #a71930;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.slider-section .carousel-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(167,25,49,1);
+    background: @include filter-gradient(#a71931, #03202f, horizontal);
+    background: @include background-image(linear-gradient(left bottom, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%));
+    background: rgba(167,25,49,1);
+    background: -moz-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(167,25,49,1)), color-stop(100%, rgba(3,32,47,1)));
+    background: -webkit-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a71931', endColorstr='#03202f', GradientType=1 );
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.card-image-div {
+    position: relative;
+}
+
+.overlay{
+    position: relative;
+}
+
+.overlay:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(167,25,49,1);
+    background: @include filter-gradient(#a71931, #03202f, horizontal);
+    background: @include background-image(linear-gradient(left bottom, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%));
+    background: rgba(167,25,49,1);
+    background: -moz-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(167,25,49,1)), color-stop(100%, rgba(3,32,47,1)));
+    background: -webkit-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    background: linear-gradient(45deg, rgba(167,25,49,1) 0%, rgba(3,32,47,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a71931', endColorstr='#03202f', GradientType=1 );
+    z-index: 1;
+    opacity: 0.4;
+}
+
+
+.location-main-section{
+    padding: 50px 0;
+padding-bottom:100px;
+}
+.location-main-section a{
+ color: #a71930;
+}
+
+h4.link_h4 a {
+    color: #a71930;
+}   
+
+.location-main-section h4 {
+    font-size: 20px;
+}
+.location-image-box {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 11px 1px #000000;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+}
+.overlay_hover.overlay:before{
+    opacity: 0;
+    transition: all 0.5s;
+}
+.overlay_hover:hover.overlay:before{
+        opacity: 0.4;
+}
+
+.location-image-box h4 {
+    font-size: 16px;
+    padding: 10px;
+    background: #a71930cc;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+
+
+section.video-section {
+    
+    padding: 50px 0;
+padding-bottom:100px;
+}
+.video-box {
+    max-width: 640px;
+    margin: 0 auto;
+    border: 10px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px -2px #03202f;
+}
+
+.dark-h{
+    background: #03202f;
+    color: #fff;
+}
+
+.dark-h .main-site-title h2 {
+    margin: 0;
+    color: #fff;
+}
+.dark-h span.divider:after{
+    background: #fff;
+}
+
+
+section.picarea_section{
+        padding: 50px 0;
+padding-bottom:100px;
+}
+
+.pic-gallery-section{
+    margin-bottom: -35px;
+}
+
+.gallery-image-box {
+    position: relative;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    box-shadow:2px 2px 11px 1px #000000;
+    overflow: hidden;
+    background-image: url(../images/download.png);
+}
+
+.gallery-image-box  h4 {
+    font-size: 16px;
+    padding: 10px;
+    background: #a71930cc;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 1;
+}
+.search-map-box {
+    position: relative;
+    padding-right: 94px;
+}
+.search-map-box button.btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #a71930;
+    color: #fff;
+}
+
+
+footer {
+    padding: 50px 0;
+}
+
+.logo-footer img {
+    max-width: 155px;
+}
+.footer-des p {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 15px;
+}
+.logo-footer {
+    margin-bottom: 20px;
+}
+.contact-us-foooter p {
+    position: relative;
+    padding-left: 35px;
+}
+.social-icons a {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none !important;
+    transition: all 0.5s;
+}
+.social-icons a:hover {
+    color: #a71930;
+}
+.contact-us-foooter p i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 23px;
+    font-size: 18px;
+    width: 28px;
+    text-align: center;
+}
+.quick-links a {
+    display: block;
+    line-height: 29px;
+    color: #fff;
+    transition: all0.5s;
+}
+.quick-links a {
+}
+.col-md-3.footer-des:last-child{
+        max-width: max-content;
+}
+
+.map-title {
+    text-align: center;
+}
+section.map-section {
+    padding: 50px 0;
+}
+.map-title {
+    padding: 40px;
+}
+.map-title h1 {
+    color: #a71930;
+}
+
+section.table-section {
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0;
+    padding-top: 0;
+}
+
+
+.results td {
+    position: relative;
+    vertical-align: top;
+    padding: 20px 10px 10px 10px;
+    background-color: rgb(226, 226, 226);
+}
+.maplist td {
+    border-bottom:1px solid #000;
+}
+
+section.table-section th {
+    background-color: #03202f;
+    color: #ffffff;
+    padding: 5px
+}
+
+section.table-section a, section.table-section a:visited {
+    color: #a71930;
+    text-decoration: underline;
+    font-weight: 700;
+    text-decoration: none;
+}
+.viewerElementsStyleClassV3 {
+    margin: 0 auto !important;
+}
+div#viewerDiv {
+    width: 100% !important;
+    background: white !important;
+    text-align: center;
+}
+a.viewerElementsStyleClassV3 {
+    display: none;
+}
+
+
+section.map_texas_section{
+        padding: 50px 0;
+padding-bottom:100px;
+}
+.img-map-box
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/*-------------   Find your home Start ----------------*/
+.find-your-home .find-home-title
+{
+    margin-top: 80px;
+    color: #850002;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.find-your-home .find-home-para
+{
+    color: #1f2416;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.home-img img:hover
+{
+    opacity: 0.7 !important;
+}
+.home-detail .home-detail-box
+{
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.table th, .table td {
+    border-top: 0px !important;
+}
+thead tr th h2
+{
+    color: #850002;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-top: 3px;
+}
+thead tr th a
+{
+    text-decoration: none !important;
+}
+tbody tr td
+{
+    padding: 5px !important;
+}
+tbody tr td a
+{
+    color: #c40100;
+    text-decoration: none !important;
+}
+#btn-view
+{
+    background-color: #850002;
+    border-color: #333;
+    color: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+/*-------------   Find your home End ----------------*/
+
+/*---------------- view plan elecation start ----------*/
+.carousel-item img {
+    max-height: 550px;
+    position: relative;
+    width: 100% !important;
+}
+#slider
+{
+    margin-bottom: 30px;
+}
+.carousel-indicators-images {
+    padding: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 1;
+    overflow: auto;
+    background: #fff;
+    padding: 10px;
+    list-style: none;
+    display: inline-block;
+    left: unset;
+    right: 0;
+    margin: 0;
+}
+.carousel-indicators-images li {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 8px;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #a71930;
+}
+.carousel-indicators-images li.active{
+    border-color: transparent;
+}
+
+#nav-tab a
+{
+    background-color: #d7d7d7;
+    color: #5d5d5d;
+    font-size: .85rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 10px;
+}
+
+
+
+
+.home-profile
+{
+    margin: 20px 20px;
+    background-color: #efefef;
+}
+.home-details .communitytitle
+{
+    color: #666666;
+    font-size: 1.6875rem;
+    font-weight: normal;
+}
+.home-para
+{
+    color: #666666;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+.overview-box1
+{
+    padding: 0px !important;
+    color: #666666;
+}
+.overview-box1 strong
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.overview-box1 ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+.overview-box1 ul li
+{
+    padding-top: 10px;
+}
+
+.overview-box1 ul li a
+{
+    text-decoration: none;
+    color: #999;
+    font-size: 1rem;
+}
+.overview-box1 ul li a i
+{
+    color: #a71930;
+    padding-right: 10px;
+    font-size: 20px;  
+}
+.overview-box2
+{
+    padding: 0px !important;
+}
+.overview-box2, strong
+{
+    color: #666666;
+    font-size: 1rem;
+}
+.overview-box2 a img
+{
+    height: 100px;
+    width:  auto;
+    margin-top: 10px;
+}
+
+.amenities .amenities-para
+{
+    margin-top: 40px;
+    color: #666666;
+}
+.amenities ul
+{
+   padding-left: 15px;
+}
+.amenities ul li
+{
+    color: #666666;
+}
+.schools
+{
+    margin-top: 40px;
+}
+
+.schools ul li
+{
+    color: #666666;
+}
+
+
+/*=======================*/
+.card-header
+{
+    background-color: #a71930;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+    min-height: 32px;
+    z-index: 1;
+}
+.card-body
+{
+    background-color: #bebebe;
+    width: 100%;
+    padding: 0 50px;
+    font-size: 1.0rem;
+}
+.card-body-center
+{
+    text-align: center;
+}
+
+.card-body-center img
+{
+    border-radius: 50%;
+    height: 170px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border: 10px solid #a71930;
+}
+.card-body-center p
+{
+    font-size: .875rem;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.card-footer
+{
+    padding: 0px !important;
+} 
+.card-footer tr td a {
+    text-align: center;
+    font-size: .75rem;
+    color: #999;
+    word-break: break-all;
+}
+.card-footer table {
+    width: 100%;
+    text-align: left;
+}
+.rightcell {
+    border-bottom: 3px solid white;
+    width: 90%;
+    text-align: center;
+    background: #e5e5e5;
+    color: #999;
+    font-size: .75rem;
+}
+.card-footer table tr td
+{
+    padding: 0.5625rem 0.625rem !important;
+}
+.leftcell {
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 15%;
+    text-align: center;
+    background: #e5e5e5;
+    color: #a71930;
+    font-weight: bold;
+}
+.leftcellicon {
+    font-size: 2em !important;
+}
+
+.home-profile-btns {
+   
+    margin: 20px 20px;
+}
+.home-profile-btns .btn
+{
+    width: 100%;
+    background-color: #a71930;
+    border-color: #a71930;
+    color: white;
+    border-radius: 0px;
+    padding: 10px;
+}
+.home-profile-btns .col-md-6 {
+    padding: 0px !important;
+    border-right: 1px solid white !important;
+}
+
+/*=======================*/
+
+@media only screen and (max-width: 767px) 
+{
+    .home-details .communitytitle
+    {
+        font-size: 25px;
+     
+    }
+    .home-details .communitytitle a img
+    {
+        margin-left: 0px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .overview-box2 a img
+    {
+        margin-bottom: 15px !important;
+    }
+    .home-profile {
+    margin: 0;
+    background-color: #efefef;
+    }
+
+        #nav-tab a {
+            font-size: 10px;
+            padding: 5px 8px;
+            margin-right: 10px !important;
+        }
+} 
+
+@media (min-width: 320px) and (max-width: 420px) {
+      #nav-tab a {
+            font-size: 9px;
+            padding: 5px 5px;
+            margin-right: 5px !important;
+        }
+}
+
+
+
+
+
+
+/*---------------- view plan elecation End ----------*/
+
+
+
+
+
+@media (min-width: 768px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding: 35px 20px;
+    border-right: 1px solid #ffffff1a;
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link{
+  border-left:1px solid #ffffff1a
+}
+
+.navbar-dark .navbar-brand {
+    margin-right: 60px;
+    max-height: 83px;
+    z-index: 11;
+    position: relative;
+}
+
+
+.navbar-dark .navbar-brand img {
+    max-width: 170px;
+    background: #A71930;
+    padding: 10px;
+    box-shadow: 2px 2px 10px -2px #03202fc7;
+}
+}
+
+/*mobile start*/
+@media (max-width: 768px){
+.navbar-dark .navbar-brand img {
+    max-width: 86px;
+    padding: 10px 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+}
+a.navbar-brand {
+    margin-left: 15px;
+}
+.navbar-dark .navbar-toggler{
+    margin-right: 15px;
+}
+.main-top-section .card{
+    margin-bottom: 15px;
+}
+
+.slider-section .carousel-caption {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+.carousel-next-pre {
+   /* position: relative;
+    max-width: 150px;
+    height: 61px;
+    margin: 0 auto;
+    margin-top: 15px;*/
+}
+.carousel-next-pre a {
+    background: #a71930;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 1;
+    top: 36px;
+    transform: scale(0.6);
+}
+.slider-section .carousel-indicators {
+    bottom: -35px;
+}
+
+
+
+.search-map-box{
+    margin-bottom: 15px;
+}
+
+}
+/*mobile end*/
+
+
+/*tabltet start*/
+@media (min-width: 768px) and  (max-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 12px 20px;
+}
+.navbar-nav {
+    margin-top: 48px;
+}
+}
+
+@media (min-width: 992px) and  (max-width: 1200px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 35px 12px;
+    font-size: 15px;
+}
+}
+
+
+/*---------------  Custom home guide page start --------------------*/
+
+.custom-title h1
+{
+    font-size: 42px;
+    text-align: left;
+    color: #444;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+ #carousel-inner img
+ {
+    width: 100%;
+    background-size: cover;
+ }   
+.custom-contain p
+{
+    margin: 0 0 9px;
+    font-size: 15px;
+    color: #777;
+    font-family: sans-serif;
+}
+.custom-home-block .number
+{
+    border: double 4px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #45312b !important;
+    background-color: #f3f4ed;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+.custom-home-block h1
+{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #49352f !important;
+    font-weight: normal;
+    padding-bottom: 12px;
+    font-family: sans-serif;
+} 
+.custom-home-block p
+{
+    margin: 0 0 9px;
+    color: #777;
+    font-size: 15.5px;
+    font-family: sans-serif;
+}
+
+.custom-question h3
+{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #444;
+    font-weight: 400;
+}
+.custom-question p
+{
+    margin: 0 0 9px;
+    color: #777;
+    font-size: 15.5px;
+    font-family: sans-serif;
+}
+.ancar-link
+{
+    color: #B2784C;
+    text-decoration: none !important;
+}
+.ancar-link:hover
+{
+    color: #777;
+}
+.custom-question .btn
+{
+    background-color: #354613;
+    color: white;
+    text-align: center;
+    padding: 4px 12px;
+    font-size: 13.5px;
+    border-radius: 0px;
+    border: 1px solid #354613;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 768px)
+ {
+    .custom-home-block h1
+    {
+        font-size: 18px;
+        margin-right:  
+    } 
+    .custom-title h1
+    {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .custom-home-block .number
+    {
+        padding: 5px 10px;
+        font-size: 18px; 
+        float: left;
+    }
+    .custom-question h3
+    {
+        margin-top: 20px;
+    }
+    .custom-home-block p ,.custom-question p ,.custom-contain p
+    {
+        font-size: 13px;
+    }
+
+ } 
+
+/*---------------  Custom home guide page end --------------------*/
+
+/*---------- waterfall ---------------------*/
+
+.waterfall-gallery-columns
+{
+   padding: 50px 50px;
+}
+.waterfall-gallery-div{
+    overflow: hidden;
+}
+.card-columns {
+    column-gap: 15px !important;
+}
+.card-columns .card {
+    margin-bottom: 15px !important;
+}
+
+ul.gallery-option {
+    position: absolute;
+    bottom: 0px;
+    background: black;
+    margin: 0px;
+    list-style-type: none;
+    width: 100%;
+    padding: 10px 20px;
+    opacity: 0;
+    bottom: -60px;
+    transition: all 0.3s;
+}
+.gallery-option li {
+    float: left;
+    margin-left: 25px;
+}
+.gallery-option li a {
+    color: white;
+    line-height: 40px;
+}
+.gallery-option li a img{
+    max-height: 40px;
+}
+.gallery-option .star_div{
+    float: right;
+}
+
+
+.waterfall-gallery-div:hover .gallery-option {
+    opacity: 1;
+    bottom: 0;
+}
+.lightbox {
+    top: 70px !important;
+}
+
+/*---------- waterfall ---------------------*/
+
+/*-------------- about us start ------------*/
+.about-us-div
+{
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.about-us-heading h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #a71930;
+}
+
+.about-us-block h1
+{
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #49352f !important;
+    font-weight: normal;
+    padding: 10px 0;
+    font-family: sans-serif;
+} 
+.about-us-block p
+{
+    margin: 0 0 9px;
+    color: #777;
+    font-size: 15.5px;
+    font-family: sans-serif;
+}
+.about-us-teamwork-div .team-title
+{
+    font-size: 17.5px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.about-us-teamwork-div .team-para
+{
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.img-hover
+{
+    position: relative;
+}
+.hover_div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #ffffff96;
+    color: #000;
+    opacity: 0;
+    padding: 30px 10px;
+}
+.img-hover:hover .hover_div{
+    opacity: 1;
+}
+
+.community-overview-div .community-para
+{
+    font-size: 15.5px;
+    font-family: sans-serif;
+    color: #898989;
+    font-weight: 400;
+}
+
+.carousel-inner .img-box img
+{
+    width: 130px !important;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.carousel-inner .testimonial
+{
+    margin-bottom: 20px;
+    font-size: 15.5px;
+    font-family: sans-serif;
+}
+.carousel-inner .overview
+{
+    margin-bottom: 20px;
+    font-size: 16.5px;
+    font-family: sans-serif;
+}
+.about-us-testimonial .carousel-indicators li
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #999;
+}
+
+.about-us-testimonial ol.carousel-indicators {
+    
+    bottom: -45px;
+}
+.about-us-testimonial .carousel-indicators .active {
+    background-color: #777;
+}
+
+@media only screen and (max-width: 768px)
+ {
+    .about-us-block h1
+    {
+        font-size: 22px;
+        margin-bottom: 10px;
+          
+    } 
+    .about-us-block p
+    {
+        font-size: 13.5px;
+    }
+    .about-us-block img
+    {
+        width: 100%;
+    }
+    .about-us-heading h1
+    {
+        font-size: 37px;
+    }
+
+ } 
+/*-------------- about us end ------------*/
