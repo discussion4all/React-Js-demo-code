@@ -1,9 +1,21 @@
 import React, {Component} from 'react';
+import DocumentMeta from 'react-document-meta';
 import Slider from './slider';
 
 class Home extends Component {
 	render() {
+		const meta = {
+	      title: 'Home',
+	      description: 'This is Home page',
+	      meta: {
+	        charset: 'utf-8',
+	        name: {
+	          keywords: 'Home page'
+	        }
+	      }
+	    };
 		return(
+			<DocumentMeta {...meta}>
 			<div>
 			<Slider />
 		    <section className="  main-top ">
@@ -186,6 +198,7 @@ class Home extends Component {
 		        </div>
 		    </section>
 			</div>
+			</DocumentMeta>
 		);
 	}
 }

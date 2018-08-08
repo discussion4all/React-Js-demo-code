@@ -1,8 +1,20 @@
 import React, {Component} from 'react';
+import DocumentMeta from 'react-document-meta';
 
 class About extends Component {
 	render() {
+        const meta = {
+          title: 'About',
+          description: 'This is Aboout page',
+          meta: {
+            charset: 'utf-8',
+            name: {
+              keywords: 'About page'
+            }
+          }
+        };
 		return(
+            <DocumentMeta {...meta}>
 		<div className="about-us-div">
         <div className="container">
             <div className="about-us-heading">
@@ -196,6 +208,7 @@ class About extends Component {
             </div>
         </div>
     </div>
+    </DocumentMeta>
 		);
 	}
 }

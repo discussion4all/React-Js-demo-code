@@ -1,8 +1,20 @@
 import React, {Component} from 'react';
+import DocumentMeta from 'react-document-meta';
 
 class Product extends Component {
 	render() {
+        const meta = {
+          title: 'Product',
+          description: 'This is Product page',
+          meta: {
+            charset: 'utf-8',
+            name: {
+              keywords: 'Product page'
+            }
+          }
+        };
 		return(
+            <DocumentMeta {...meta}>
 			<main role="main" className="find-your-home">
         <div className="container">
             <h1 className="find-home-title">Quick Move-In Homes</h1>
@@ -413,6 +425,7 @@ class Product extends Component {
             </div>
         </div>    
     </main>
+    </DocumentMeta>
 		);
 	}
 }
